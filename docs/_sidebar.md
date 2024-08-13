@@ -1,9 +1,9 @@
 - [Accueil](/)
 - Premiers pas
-	- [Installation d'Arduino IDE](arduino/ide/README.md)
-	- [Installation de M5Stack Atom](m5stack/atom/installation/README.md)
-	- [Configuration pour M5Stack Atom](m5stack/atom/configuration/README.md)
+	- [Installation d'Arduino IDE](arduino/ide/installation.md)
+	- [Installation de M5Stack Atom](m5stack/atom/installation.md)
+	- [Configuration pour M5Stack Atom](m5stack/atom/configuration.md)
 - Tutoriels
-	- [Tutoriel: le code test «Blink»](m5stack/atom/tutoriel/blink/README.md)
+	- [Tutoriel: le code test «Blink»](m5stack/atom/tutoriel/blink.md)
 -  Références
-	- [Broches du M5Stack Atom](m5stack/atom/broches/README.md)
+	- [Broches du M5Stack Atom](m5stack/atom/broches.md)

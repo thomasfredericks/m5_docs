@@ -2,7 +2,7 @@
 
 ## Préalable(s)
 
-- [Configurer Arduino IDE pour M5Stack Atom](m5stack/atom/configuration/README.md)
+- [Configurer Arduino IDE pour M5Stack Atom](m5stack/atom/configuration.md)
 
 ## Le code à téléverser
 
