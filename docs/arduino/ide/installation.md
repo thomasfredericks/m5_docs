@@ -1,4 +1,4 @@
-# Installer Arduino IDE 2
+# Installer Arduino IDE
 
 ## Préalable(s)
 
@@ -6,12 +6,12 @@ Aucun préalable.
 
 ## Téléchargment
 
-- [Télécharger la dernière version d'Arduino IDE 2](https://www.arduino.cc/en/software)
+- [Télécharger la dernière version d'Arduino IDE](https://www.arduino.cc/en/software) qui devrait être au minimum la version 2!
 
 ## Documentation officielle
 
 - [Documentation officielle sur l'utilisation de l'Arduino IDE 2](https://docs.arduino.cc/software/ide/)
-- [Documentation officielle de la programmation de base](https://docs.arduino.cc/programming/)
+- [Documentation officielle de la programmation avec le langage Arduino](https://docs.arduino.cc/programming/)
 
 
 ## Fenêtre principale du logiciel Arduino IDE
