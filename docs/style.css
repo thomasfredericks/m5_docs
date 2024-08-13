@@ -1,13 +1,13 @@
 :root {
-  --theme-color: #ff69b4; /* Default pink color */
-  --theme-color-hover: #ff82bc;
+  --theme-color: #006d70; /* Default pink color */
+  --theme-color-hover: #00b7bc;
   --theme-background: #ffffff;
   --theme-text: #34495e;
   --theme-border: rgba(0, 0, 0, 0.07);
-  --theme-highlight: #ff69b4; /* Pink */
+  --theme-highlight: #006d70; /* Pink */
   --theme-highlight-text: #ffffff;
-  --theme-link: #ff69b4; /* Pink */
-  --theme-link-hover: #ff82bc; /* Pink hover */
+  --theme-link: #006d70; /* Pink */
+  --theme-link-hover: #00b7bc; /* Pink hover */
   --theme-bold-text: #2c3e50; /* Default bold text color */
   --code-background: #f8f8f8; /* Light mode code block background */
   --code-text: #525252; /* Light mode code text color */
@@ -19,13 +19,13 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --theme-color: #ff69b4; /* Pink */
-    --theme-color-hover: #ff82bc; /* Pink hover */
+    --theme-color: #006d70; /* Pink */
+    --theme-color-hover: #00b7bc; /* Pink hover */
     --theme-background: #1e1e1e;
     --theme-text: #e0e0e0;
     --theme-border: rgba(255, 255, 255, 0.1);
-    --theme-link: #ff69b4; /* Pink */
-    --theme-link-hover: #ff82bc; /* Pink hover */
+    --theme-link: #006d70; /* Pink */
+    --theme-link-hover: #00b7bc; /* Pink hover */
     --theme-bold-text: #ffffff; /* Brighter bold text color for dark mode */
     --code-background: #2d2d2d; /* Dark mode code block background */
     --code-text: #cccccc; /* Dark mode code text color */
@@ -1053,3 +1053,11 @@ code .token {
   position: relative;
   left: auto;
 }
+
+.sidebar-nav li{position:relative;margin:0;cursor:pointer}
+
+.sidebar-nav ul:not(.app-sub-sidebar)>li:not(.file)::before{content:'';display:block;position:absolute;top:11px;left:-12px;height:6px;width:6px;border-right:1px solid #505d6b;border-bottom:1px solid #505d6b;transform:rotate(-45deg);transition:transform .1s}
+
+.sidebar-nav ul:not(.app-sub-sidebar)>li.open::before{transform:rotate(45deg)}
+
+.sidebar-nav ul:not(.app-sub-sidebar)>li.collapse::before{transform:rotate(-45deg)}

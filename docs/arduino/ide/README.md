@@ -1,4 +1,4 @@
-# Arduino IDE
+# Installer Arduino IDE 2
 
 ## Préalable(s)
 
@@ -10,14 +10,15 @@ Aucun préalable.
 
 ## Documentation officielle
 
-- [Programmation de base](https://docs.arduino.cc/programming/)
+- [Documentation officielle sur l'utilisation de l'Arduino IDE 2](https://docs.arduino.cc/software/ide/)
+- [Documentation officielle de la programmation de base](https://docs.arduino.cc/programming/)
 
 
 ## Fenêtre principale du logiciel Arduino IDE
 
 L'environnement de développement intégré Arduino, *Arduino Integrated development environment* en anglais, ou **Arduino IDE** est outil pour programmer les microcontrôleurs dédié à l'apprentissage.
 
-![Fenêtre principale](arduino_ide_fenetre.svg)
+![Fenêtre principale](arduino_ide_fenetre.svg "Fenêtre principale")
 
 
 ![Côté gauche du menu](arduino_ide_barre.svg)
