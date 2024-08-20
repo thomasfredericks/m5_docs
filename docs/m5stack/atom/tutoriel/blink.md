@@ -2,43 +2,35 @@
 
 ## Préalable(s)
 
-- [Configurer Arduino IDE pour M5Stack Atom](m5stack/atom/configuration.md)
+- [Configurer Arduino IDE pour M5Stack Atom](/m5stack/atom/configuration.md)
+- [Copier le code de base du M5Stack Atom](/m5stack/atom/code-base.md)
 
-## Le code à téléverser
+## Le code à ajouter
+
+### Dans l'espace global
+
+Nous n'ajoutons rien dans l'espace global, mais nous utiliserons la variable `pixel` du code de base.
+
+### Dans _setup()_
+
+Nous n'ajoutons rien dans _setup()_, puisque le pixel est déjà initialisé dans le code de base : `FastLED.addLeds<WS2812, DATA_PIN, GRB>(&pixel, 1);`.
+
+### Dans _loop()_
+
+Pour allumer le pixel :
 
 ```cpp
-// Le code de base pour le M5Stack Atom
+  // Allumer le pixel et attendre 100 millisecondes
+  pixel = CRGB(255,255,255);
+  FastLED.show();
+  delay(100);
+```
 
-#include <M5Atom.h> // Inclure la librairie M5 (version pour M5Atom) https://github.com/m5stack/M5Atom
+Pour éteindre le pixel :
 
-CRGB pixel; // CRGB est défini par FastLed https://github.com/FastLED/FastLED/wiki/Pixel-reference#crgb-reference
-
-void setup() {
-  
-  M5.begin(false, false, false); // Démarrer la libraire M5 avec toutes les options désactivées
-
-  Serial.begin(115200); // Démarrer la connexion sérielle avec l'ordinateur
-
-  FastLED.addLeds<WS2812, DATA_PIN, GRB>(&pixel, 1); // Ajouter le pixel du M5Atom à FastLED
-
-  // Animation de démarrage de 5 secondes
-  while ( millis() < 5000) {
-    // Allumer le pixel et attendre 100 millisecondes
-    pixel = CRGB(255,255,255);
-    FastLED.show();
-    delay(100);
-    // Éteindre le pixel et attendre 100 millisecondes
-    pixel = CRGB(0,0,0);
-    FastLED.show();
-    delay(100);
-
-  } 
-  
-}
-
-void loop() {
- 
-  M5.update();  // Toujours inclure M5.update() au début de loop()
-
-}
+```cpp
+  // Allumer le pixel et attendre 100 millisecondes
+  pixel = CRGB(255,255,255);
+  FastLED.show();
+  delay(100);
 ```

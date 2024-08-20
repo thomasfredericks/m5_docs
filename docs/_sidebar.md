@@ -3,6 +3,8 @@
 	- [Installation d'Arduino IDE](arduino/ide/installation.md)
 	- [Installation de M5Stack Atom](m5stack/atom/installation.md)
 	- [Configuration pour M5Stack Atom](m5stack/atom/configuration.md)
+- Code de base
+	- [Code de base du M5Stack Atom](m5stack/atom/code-base.md)
 - Tutoriels
 	- [Tutoriel: le code test «Blink»](m5stack/atom/tutoriel/blink.md)
 -  Références
