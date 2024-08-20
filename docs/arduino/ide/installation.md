@@ -21,11 +21,11 @@ L'environnement de développement intégré Arduino, *Arduino Integrated develop
 ![Fenêtre principale](arduino_ide_fenetre.svg "Fenêtre principale")
 
 
-![Côté gauche du menu](arduino_ide_barre.svg)
+![Barre d'icones](arduino_ide_barre.svg)
 
-Voici les fonctions des îcones du côté gauche du menu :
+Voici les fonctions de la barre d'îcones de gauche à droite :
 1. Vérifier le programme et en identifier les erreurs.
-2. Envoyer du programme à la carte Arduino.
-3. Créer un nouveau document Arduino.
-4. Ouvrir un document Arduino existant.
-5. Enregistrer le document Arduino ouvert.
+2. Vérifier le programme et en identifier les erreurs. Envoyer par la suite le code compilé à la carte Arduino.
+3. Débogage (seulement utilisé pour certains modèles de cartes).
+4. Moniteur graphique.
+5. Moniteur textuel.
