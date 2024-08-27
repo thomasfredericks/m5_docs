@@ -1,11 +1,20 @@
 - [Accueil](/)
 - Premiers pas
-	- [Installation d'Arduino IDE](arduino/ide/installation.md)
-	- [Installation de M5Stack Atom](m5stack/atom/installation.md)
-	- [Configuration pour M5Stack Atom](m5stack/atom/configuration.md)
+	- [Installation d'Arduino IDE](/arduino/ide/installation.md)
+	- [Installation de M5Stack Atom](/m5stack/atom/installation.md)
+	- [Configuration pour M5Stack Atom](/m5stack/atom/configuration.md)
 - Tutoriels
-	- [Tutoriel: le code test «Blink»](m5stack/atom/tutoriel/blink.md)
-	- [Tutoriel: «Blink» au démarrage](m5stack/atom/tutoriel/blink_demarrage.md)
+	- [Tutoriel: le code test «Blink»](/m5stack/atom/tutoriel/blink.md)
+	- [Tutoriel: «Blink» au démarrage](/m5stack/atom/tutoriel/blink_demarrage.md)
+	- [Tutoriel: Lampe torche](/m5stack/atom/tutoriel/lampe_torche.md)
+	- [Tutoriel: Clignoter dans bloquer](/m5stack/atom/tutoriel/clignoter_sans_bloquer.md)
 -  Références
-	- [Broches du M5Stack Atom](m5stack/atom/broches.md)
-	- [Code de base du M5Stack Atom](m5stack/atom/code-base.md)
+	- [Le code Arduino](/arduino/code.md)
+	- [Broches du M5Stack Atom](/m5stack/atom/broches.md)
+	- [Couleurs de connecteurs Grove](/m5stack/atom/grove.md)
+	- [Code de base du M5Stack Atom](/m5stack/atom/code-base.md)
+	- [Bouton du M5Stack Atom](/m5stack/atom/bouton.md)
+	- [Pixel du M5Stack Atom](/m5stack/atom/pixel.md)
+	- [Attendre avec millis()](/arduino/millis_attendre.md)
+	- [Intervalle avec millis()](/arduino/millis_intervalle.md)
+
