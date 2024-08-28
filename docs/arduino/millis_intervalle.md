@@ -38,7 +38,7 @@ On combine ces deux extraits ainsi, pour un intervalle de 50 millisecondes :
 if ( millis() - monChronoDepart >= 50 ) { // SI LE TEMPS ÉCOULÉ DÉPASSE 50 MS...
       monChronoDepart = millis(); // ...REDÉMARRER LE CHRONOMÈTRE...
       // CETTE SECTION SERA EXÉCUTÉE À CHAQUE 50 MS
-      // AJOUTER LE CODE À RÉPETTER ICI
+      // AJOUTER LE CODE À RÉPÉTER ICI
 }
 ```
 
