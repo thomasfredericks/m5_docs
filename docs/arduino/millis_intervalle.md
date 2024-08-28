@@ -14,7 +14,10 @@ unsigned long monChronoDepart = 0; // DEPART DE MON CHRONOMÈTRE
 ```
 ### Configuration dans *setup()*
 
-Il n'y a rien à configurer dans *setup()*.
+On inialise le temps de départ:
+```cpp
+monChronoDepart = millis(); // TEMPS DE DÉPART
+```
 
 ### Utilisation dans *loop()*
 

@@ -1,4 +1,4 @@
-# Tutoriel: Lampe torche avec une relation directe
+# Tutoriel: Lampe torche avec une corrélation directe
 
 ## Préalable(s)
 
@@ -9,7 +9,7 @@
 
 ## Le code préalable à intégrer
 
-1) [Transcrire le code du tutoriel «Blink» uniquement au démarrage](/m5stack/atom/tutoriel/blink_demarrage.md) dans un nouveau projet Arduino.
+1) [Transcrire le code du tutoriel «Blink» au démarrage](/m5stack/atom/tutoriel/blink_demarrage.md) dans un nouveau projet Arduino.
 
 ## Le nouveau code à ajouter pour que le bouton allume le pixel
 
