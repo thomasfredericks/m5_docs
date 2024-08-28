@@ -6,7 +6,8 @@
 - Tutoriels
 	- [Tutoriel: le code test «Blink»](/m5stack/atom/tutoriel/blink.md)
 	- [Tutoriel: «Blink» au démarrage](/m5stack/atom/tutoriel/blink_demarrage.md)
-	- [Tutoriel: Lampe torche](/m5stack/atom/tutoriel/lampe_torche.md)
+	- [Tutoriel: Lampe torche directe](/m5stack/atom/tutoriel/lampe-torche-directe.md)
+	- [Tutoriel: Lampe torche état](/m5stack/atom/tutoriel/lampe-torche-etat.md)
 	- [Tutoriel: Clignoter dans bloquer](/m5stack/atom/tutoriel/clignoter_sans_bloquer.md)
 -  Références
 	- [Le code Arduino](/arduino/code.md)

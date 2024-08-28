@@ -13,7 +13,7 @@ Le bouton du M5Stack Atom Lite ne nécessite aucune configuration à ajouter dan
 Utiliser l'une des variantes suivantes selon vos besoins. 
 
 
-### Valider si le bouton est **présentement**  appuyé
+### Valider si le bouton est **présentement** relâché
 ```cpp
 if ( M5.Btn.isReleased() ) {
 
@@ -27,6 +27,18 @@ if ( M5.Btn.isReleased() ) {
 | `0`    |  `1`  | 
 | `false`    | `true ` |
 
+###   Valider si le bouton est **présentement** appuyé
+```cpp
+if ( M5.Btn.isPressed() ) {
+
+}
+```
+`M5.Btn.isPressed()` retourne  un `bool` qui peut avoir comme valeur 0 ou 1 selon la validation (les alias pertinents sont aussi indiqués dans le tableau) :
+
+| Non | Oui | 
+|---------|---------|
+| `0`    |  `1`  | 
+| `false`    | `true ` |
 
 ###  Valider si le bouton **a été** appuyé depuis le dernier *M5.update()*
 ```cpp
@@ -55,15 +67,3 @@ if ( M5.Btn.wasReleased() ) {
 | `0`    |  `1`  | 
 | `false`    | `true ` |
 
-###   Valider si le bouton est **présentement** appuyé
-```cpp
-if ( M5.Btn.isPressed() ) {
-
-}
-```
-`M5.Btn.isPressed()` retourne  un `bool` qui peut avoir comme valeur 0 ou 1 selon la validation (les alias pertinents sont aussi indiqués dans le tableau) :
-
-| Non | Oui | 
-|---------|---------|
-| `0`    |  `1`  | 
-| `false`    | `true ` |
