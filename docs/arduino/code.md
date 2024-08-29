@@ -25,8 +25,6 @@
 | `byte`    | 8 bits     |   Pour stocker un nombre compris entre 0 et 255      |
 
 
-
-
 ## Code minimal
 
 ```cpp
