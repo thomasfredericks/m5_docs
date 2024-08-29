@@ -132,7 +132,7 @@ clignote(3,250); //la sortie 3 clignotera lentement
 | `!=`    | Pas égale |
 | `>`    | Plus grand que |
 | `>=`    | Plus grand que ou égal |
-| `<'`    | Plus petite que |
+| `<`    | Plus petite que |
 | `<=`    | Plus petite que ou égal |
 
 
