@@ -61,5 +61,6 @@ if ( monEtatPixel ) {
 } else {
     pixel = CRGB(0,0,0); 
 }
+FastLED.show();
 ```
 

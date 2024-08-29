@@ -51,16 +51,20 @@ FastLED.show();
 
 1) Pour changer l'etat, nous allons utiliser `M5.Btn.wasPressed()` :
 ```cpp
-if ( monEtatLampe ) {
-    monEtatLampe = false; // si monEtatLampe est vrai, monEtatLampe devient faux
-} else {
-    monEtatLampe = true; // sinon (i.e. monEtatLampe est faux), monEtatLampe devient vrai
+if (M5.Btn.wasPressed() ) {
+    if ( monEtatLampe ) {
+        monEtatLampe = false; // si monEtatLampe est vrai, monEtatLampe devient faux
+    } else {
+        monEtatLampe = true; // sinon (i.e. monEtatLampe est faux), monEtatLampe devient vrai
+    }
 }
 ```
 
 2) Nous pouvons remplacer le code précédant en utilisant l'opérateur d'inversion :
 ```cpp
-monEtatLampe = !monEtatLampe; // monEtatLampe égale PAS monEtatLampe
+if (M5.Btn.wasPressed() ) {
+    monEtatLampe = !monEtatLampe; // monEtatLampe égale PAS monEtatLampe
+}
 ```
 
 
