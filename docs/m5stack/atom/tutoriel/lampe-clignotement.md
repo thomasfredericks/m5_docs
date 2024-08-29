@@ -11,7 +11,7 @@
 #include <M5Atom.h>
 
 CRGB pixel;
-unsigned long chronoDepart;
+unsigned long monChronoDepart;
 bool monEtatPixel;
 bool monEtatLampe;
 
@@ -20,8 +20,8 @@ void setup() {
   M5.begin(false, false, false);
   FastLED.addLeds<WS2812, DATA_PIN, GRB>(&pixel, 1);  // Ajouter le pixel du M5Atom à FastLED
 
-  chronoDepart = millis();
-  while (millis() - chronoDepart <= 5000) {
+  monChronoDepart = millis();
+  while (millis() - monChronoDepart <= 5000) {
     pixel = CRGB(255, 255, 255);
     FastLED.show();
     delay(100);
@@ -46,8 +46,8 @@ void loop() {
   }
 
   if (monEtatLampe) {
-    if (millis() - chronoDepart >= 250) {
-      chronoDepart = millis();
+    if (millis() - monChronoDepart >= 250) {
+      monChronoDepart = millis();
       monEtatPixel = !monEtatPixel;
     }
   } else {

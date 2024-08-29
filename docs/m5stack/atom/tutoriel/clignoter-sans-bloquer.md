@@ -20,7 +20,7 @@ bool monEtatPixel;
 
 2) Ajouter une variable  **globale** pour mettre en mémoire le temps de départ du chronomètre:
 ```cpp
-unsigned long monChronoPixel = 0; // DEPART DE MON CHRONOMÈTRE
+unsigned long monChronoDepart = 0; // DEPART DE MON CHRONOMÈTRE
 ```
 
 ### Dans _setup()_
@@ -32,35 +32,31 @@ Ajouter le code suivant après l'animation de démarrage.
 monEtatPixel = false;
 ```
 
-2) Ajuster la valeur du pixel selon l'etat :
+2) On réinialise le temps de départ à la fin du _setup()_ :
 ```cpp
-if ( monEtatPixel ) {
-    pixel = CRGB(255,255,255); 
-} else {
-    pixel = CRGB(0,0,0); 
-}
-FastLED.show();
-```
-3) On inialise le temps de départ:
-```cpp
-monChronoPixel = millis(); // TEMPS DE DÉPART
+monChronoDepart = millis(); // TEMPS DE DÉPART
 ```
 
 ### Dans _loop()_
 
-On ajoute le code suivant après `M5.update()` :
-```cpp
-if ( millis() - monChronoDepart >= 250 ) { // SI LE TEMPS ÉCOULÉ DÉPASSE 250 MS...
-      monChronoPixel = millis(); // ...REDÉMARRER LE CHRONOMÈTRE...
-      // CETTE SECTION SERA EXÉCUTÉE À CHAQUE 50 MS
-      monEtatPixel = !monEtatPixel;
-}
+On ajoute le code suivant après `M5.update()`.
 
+1) Ajuster la valeur du pixel selon l'etat :
+```cpp
 if ( monEtatPixel ) {
     pixel = CRGB(255,255,255); 
 } else {
     pixel = CRGB(0,0,0); 
 }
 FastLED.show();
+```
+
+2) Alterner `monEtatPixel` selon le chronomètre :
+```cpp
+if ( millis() - monChronoDepart >= 250 ) { // SI LE TEMPS ÉCOULÉ DÉPASSE 250 MS...
+      monChronoDepart = millis(); // ...REDÉMARRER LE CHRONOMÈTRE...
+      // CETTE SECTION SERA EXÉCUTÉE À CHAQUE 50 MS
+      monEtatPixel = !monEtatPixel;
+}
 ```
 
