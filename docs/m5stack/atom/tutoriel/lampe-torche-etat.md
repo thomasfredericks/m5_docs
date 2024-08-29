@@ -60,7 +60,7 @@ if (M5.Btn.wasPressed() ) {
 }
 ```
 
-2) Nous pouvons remplacer le code précédant en utilisant l'opérateur d'inversion :
+2) Nous pouvons simplifiers le code précédant en utilisant l'opérateur d'inversion :
 ```cpp
 if (M5.Btn.wasPressed() ) {
     monEtatLampe = !monEtatLampe; // monEtatLampe égale PAS monEtatLampe

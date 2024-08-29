@@ -9,6 +9,7 @@
 	- [Tutoriel: lampe torche avec corrélation](/m5stack/atom/tutoriel/lampe-torche-correlation.md)
 	- [Tutoriel: lampe torche avec état](/m5stack/atom/tutoriel/lampe-torche-etat.md)
 	- [Tutoriel: clignoter sans bloquer](/m5stack/atom/tutoriel/clignoter-sans-bloquer.md)
+	- [Tutoriel: lampe torche qui clignote](/m5stack/atom/tutoriel/lampe-glinote.md)
 -  Références
 	- [Le code Arduino](/arduino/code.md)
 	- [Broches du M5Stack Atom](/m5stack/atom/broches.md)
