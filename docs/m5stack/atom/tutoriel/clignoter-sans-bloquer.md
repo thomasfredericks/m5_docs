@@ -3,7 +3,7 @@
 ## Préalable(s)
 
 - [Tutoriel: «Blink» au démarrage](/m5stack/atom/tutoriel/blink_demarrage.md)
-- [Intervalle avec millis()](/arduino/millis_intervalle.md)
+- [Intervalle avec millis()](/arduino/millis/intervalle.md)
 
 ## Le code préalable à intégrer
 

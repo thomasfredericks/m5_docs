@@ -16,6 +16,6 @@
 	- [Code de base du M5Stack Atom](/m5stack/atom/code-base.md)
 	- [Bouton du M5Stack Atom](/m5stack/atom/bouton.md)
 	- [Pixel du M5Stack Atom](/m5stack/atom/pixel.md)
-	- [Attendre avec millis()](/arduino/millis_attendre.md)
-	- [Intervalle avec millis()](/arduino/millis_intervalle.md)
+	- [Attendre avec millis()](/arduino/millis/attendre.md)
+	- [Intervalle avec millis()](/arduino/millis/intervalle.md)
 

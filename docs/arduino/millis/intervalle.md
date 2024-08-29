@@ -11,7 +11,7 @@ Le temps étant compté en millisecondes, la valeur du temps va augmenter très 
 
 Créer une variable **globale** pour mettre en mémoire le temps de départ du chronomètre:
 ```cpp
-unsigned long monChronoDepart = 0; // DEPART DE MON CHRONOMÈTRE
+unsigned long monChronoDepart ; // DEPART DE MON CHRONOMÈTRE
 ```
 ### Configuration dans *setup()*
 
