@@ -46,3 +46,29 @@ if ( millis() - monChronoDepart >= 50 ) { // SI LE TEMPS ÉCOULÉ DÉPASSE 50 MS
 }
 ```
 
+## Explication de l'algorithme
+
+Si je prends un intervalle de 5 ms comme dans le code suivant :
+```cpp
+if ( millis() - monChronoDepart >= 5 ) { // SI LE TEMPS ÉCOULÉ DÉPASSE 5 MS...
+      monChronoDepart = millis(); // ...REDÉMARRER LE CHRONOMÈTRE...
+      // CETTE SECTION SERA EXÉCUTÉE À CHAQUE 5 MS
+      // AJOUTER LE CODE À RÉPÉTER ICI
+}
+```
+
+Voicu un tableau qui décrit son déroulement:
+| millis() | monChronoDepart | millis()-monChronoDepart | >= 5 |
+|---------|---------|---------|---------|
+| 0 | 0 | 0 | false | 
+| 1 | 0 | 1 | false | 
+| 2 | 0 | 2 | false | 
+| 3 | 0 | 3 | false | 
+| 4 | 0 | 4 | false | 
+| 5 | 0 | 5 | true | 
+| 6 | 5 | 1 | false | 
+| 7 | 5 | 2 | false | 
+| 8 | 5 | 3 | false | 
+| 9 | 5 | 4 | false | 
+| 10 | 5 | 5 | true | 
+| 11 | 10 | 1 | false | 
