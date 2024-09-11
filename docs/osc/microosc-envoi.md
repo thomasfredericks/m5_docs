@@ -24,7 +24,7 @@ Vérifier que Serial est bien démarré dans `setup()` :
 Serial.begin(115200);
 ```
 
-## Pour envoyer un entier
+## Envoyer une entier par MicroOsc vers l'ordinateur
 
 Utiliser `void sendInt(const char *address, int32_t i)` pour envouer un entier. 
 
