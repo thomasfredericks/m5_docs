@@ -2,7 +2,7 @@
 
 ## Préalable(s)
 
-- [Tutoriel : Réception de l'OSC dans TouchDesigner](/touchdesigner/tutoriel/reception.md)
+- [Tutoriel : Réception de l'OSC dans TouchDesigner](touchdesigner/tutoriel/reception.md)
 
 ## Alterner l'état du bouton
 

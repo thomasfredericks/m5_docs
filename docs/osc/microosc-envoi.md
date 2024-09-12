@@ -2,7 +2,7 @@
 
 ## Préalable(s)
 
-- [Protocole Open Sound Control (OSC)](/osc/protocole.md)
+- [Protocole Open Sound Control (OSC)](osc/protocole.md)
 
 ## Bibliothèque *MicroOsc*
 

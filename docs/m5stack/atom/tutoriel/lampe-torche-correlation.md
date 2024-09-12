@@ -2,14 +2,14 @@
 
 ## Préalable(s)
 
-- [Le pixel du M5Stack Atom](/m5stack/atom/pixel.md)
-- [Tutoriel: «Blink» uniquement au démarrage](/m5stack/atom/tutoriel/blink_demarrage.md)
-- [Bouton du M5Stack Atom](/m5stack/atom/bouton.md)
+- [Le pixel du M5Stack Atom](m5stack/atom/pixel.md)
+- [Tutoriel: «Blink» uniquement au démarrage](m5stack/atom/tutoriel/blink_demarrage.md)
+- [Bouton du M5Stack Atom](m5stack/atom/bouton.md)
 
 
 ## Le code préalable à intégrer
 
-1) [Transcrire le code du tutoriel «Blink» au démarrage](/m5stack/atom/tutoriel/blink_demarrage.md) dans un nouveau projet Arduino.
+1) [Transcrire le code du tutoriel «Blink» au démarrage](m5stack/atom/tutoriel/blink_demarrage.md) dans un nouveau projet Arduino.
 
 ## Le nouveau code à ajouter pour que le bouton allume le pixel
 

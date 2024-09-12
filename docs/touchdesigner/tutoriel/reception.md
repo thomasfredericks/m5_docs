@@ -2,8 +2,8 @@
 
 ## Préalable(s)
 
-- [Protocole Open Sound Control (OSC)](/osc/protocole.md)
-- [Tutoriel: OscBridge, M5 Angle et le bouton](/m5stack/atom/tutoriel/angle-button-oscbridge.md)
+- [Protocole Open Sound Control (OSC)](osc/protocole.md)
+- [Tutoriel: OscBridge, M5 Angle et le bouton](m5stack/atom/tutoriel/angle-button-oscbridge.md)
 
 ## Réception d'OSC dans TouchDesigner
 

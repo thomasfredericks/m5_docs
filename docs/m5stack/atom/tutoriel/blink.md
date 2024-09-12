@@ -2,11 +2,11 @@
 
 ## Préalable(s)
 
-- [Configurer Arduino IDE pour M5Stack Atom](/m5stack/atom/configuration.md)
+- [Configurer Arduino IDE pour M5Stack Atom](m5stack/atom/configuration.md)
 
 ## Le code préalable à intégrer
 
-- [Transcrire le code minimal pour le M5Stack Atom dans un nouveau projet Arduino](/m5stack/atom/code-minimal.md)
+- [Transcrire le code minimal pour le M5Stack Atom dans un nouveau projet Arduino](m5stack/atom/code-minimal.md)
 
 ## Le code à ajouter
 
