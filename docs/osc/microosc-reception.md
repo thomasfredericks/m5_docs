@@ -1,4 +1,4 @@
-# L'envoi d'OSC avec MicroOsc
+# La réception d'OSC avec MicroOsc
 
 ## Préalable(s)
 
