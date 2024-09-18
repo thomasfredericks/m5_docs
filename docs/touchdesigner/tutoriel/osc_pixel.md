@@ -66,11 +66,22 @@ def onOnToOff(channel, sampleIndex, val, prev):
 	return
 
 def whileOff(channel, sampleIndex, val, prev):
+	# GET NAME AND VALUES
+	oscpath = "/"+channel.name
+	values = channel.vals
+	
+	#CONVERT FLOATS TO INTS
+	index = 0
+	while index < len(values):
+    		values[index] = int(values[index])
+    		index = index + 1
+
+	#SEND VALUES OVER OSC
+	op('oscout1').sendOSC(oscpath, values)
 	return
 
 def onValueChange(channel, sampleIndex, val, prev):
 	return
-	
 ```
 
 ### 3) Voici ce à quoi devrait ressembler le réseau complété
