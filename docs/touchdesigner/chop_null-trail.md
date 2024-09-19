@@ -11,4 +11,4 @@ Il n'a aucun effet, mais permet d'identifier et de nommer le début ou la fin d'
 Le CHOP _Trail_ permet de déboguer son code et visualiser les données reçues. Les utiliser pour voir les données qui circulent. Cependant, ne pas trop en abuser et les retirer ou les désactiver lorsque le débogage est terminé. 
 
 > [!WARNING]
-> Attention! Ne rien connecter à la sortir du OP _Trail_. Il ne devrait habituellement pas faire partie du fonctionnement de votre réseau. C'est surtout un outil de visualisation.
+> Attention! Ne rien connecter à la sortie du OP _Trail_. Il ne devrait habituellement pas faire partie du fonctionnement de votre réseau. C'est surtout un outil de visualisation.
