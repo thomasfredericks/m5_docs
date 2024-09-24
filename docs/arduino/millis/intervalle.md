@@ -58,6 +58,7 @@ if ( millis() - monChronoDepart >= 5 ) { // SI LE TEMPS ÉCOULÉ DÉPASSE 5 MS..
 ```
 
 Voicu un tableau qui décrit son déroulement:
+
 | millis() | monChronoDepart | millis()-monChronoDepart | >= 5 |
 |---------|---------|---------|---------|
 | 0 | 0 | 0 | false | 
