@@ -22,7 +22,7 @@
 	- [Tutoriel: Bouton, M5 Angle et Serial Monitor](m5stack/atom/tutoriel/angle-button-monitor.md)
 - De MicroOsc à TouchDesigner
 	- [Protocole Open Sound Control (OSC)](osc/protocole.md)
-	- [L'envoi d'OSC avec MicroOsc](osc/microosc-envoi.md)
+	- [L'envoi d'OSC avec MicroOsc](osc/microosc/envoi.md)
 	- [Tutoriel: OscBridge, M5 Angle et le bouton](m5stack/atom/tutoriel/angle-button-oscbridge.md)
 	- [Tutoriel: Réception de l'OSC dans TouchDesigner](touchdesigner/tutoriel/reception.md)
 - Traitement dans TouchDesigner
@@ -31,12 +31,15 @@
 	- [Tutoriel: Filtrer l'angle dans TouchDesigner](touchdesigner/tutoriel/angle_filtrer.md)
 	- [Tutoriel: Détection de seuil de l'angle](touchdesigner/tutoriel/angle_seuil.md)
 - De TouchDesigner à MicroOsc
-	- [La réception d'OSC avec MicroOsc](osc/microosc-reception.md)
+	- [La réception d'OSC avec MicroOsc](osc/microosc/reception.md)
 	- [Tutoriel: Contrôle du Pixel par OSC](touchdesigner/tutoriel/osc_pixel.md)
 - Plusieurs Units à connecteurs noirs
 	- [M5Stack PbHub Unit](m5stack/unit/pbhub.md)
 	- [Tutoriel: M5Stack PbHub + Angle, Motion, Light, Key](m5stack/atom/tutoriel/pbhub_key-motion-angle-light.md)
+- Reaper et envoi valeurs changées
+	- [OSC dans Reaper](reaper/osc.md)
+	- [Envoi de valeur changée](osc/microosc/envoi-valeur-changee.md)
 -  Références
 	- [Couleurs de connecteurs Grove](m5stack/atom/grove.md)
 	- [Code de base du M5Stack Atom](m5stack/atom/code-base.md)
-	- [Code OSC SLIP de base du M5Stack Atom](m5stack/atom/code_base_osc_slip.md)
+	- [Code OSC SLIP de base](m5stack/atom/code_base_osc_slip.md)

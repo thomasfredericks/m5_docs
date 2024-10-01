@@ -2,7 +2,7 @@
 
 ## Préalable(s)
 
-- Se familiariser avec [L'envoi d'OSC avec MicroOsc](osc/microosc-envoi.md)
+- Se familiariser avec [L'envoi d'OSC avec MicroOsc](osc/microosc/envoi.md)
 - Télécharger la bibliothèque **MicroOsc** dans le gestionnaire de bibliothèques d'Arduino.
 - Télécharger la dernière version d'OscBridge pour Windows : [OscBridge Latest Release](https://github.com/thomasfredericks/OscBridge/releases/lateste)
 
