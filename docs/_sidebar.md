@@ -36,9 +36,12 @@
 - Plusieurs Units à connecteurs noirs
 	- [M5Stack PbHub Unit](m5stack/unit/pbhub.md)
 	- [Tutoriel: M5Stack PbHub + Angle, Motion, Light, Key](m5stack/atom/tutoriel/pbhub_key-motion-angle-light.md)
-- Reaper et envoi valeurs changées
+- Reaper OSC Play,Stop,Volume,VU
 	- [OSC dans Reaper](reaper/osc.md)
 	- [Envoi de valeur changée](osc/microosc/envoi-valeur-changee.md)
+	- [Tutoriel : Reaper OSC Play,Stop,Volume,VU](reaper/tutoriel/play-stop-volume-vu.md)
+- Reaper OSC Virtual Keyboard
+	- [OSC MIDI dans Reaper](reaper/osc-midi.md)
 -  Références
 	- [Couleurs de connecteurs Grove](m5stack/atom/grove.md)
 	- [Code de base du M5Stack Atom](m5stack/atom/code-base.md)
