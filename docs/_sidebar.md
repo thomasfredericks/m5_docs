@@ -46,4 +46,4 @@
 	- [Couleurs de connecteurs Grove](m5stack/atom/grove.md)
 	- [Code de base du M5Stack Atom](m5stack/atom/code-base.md)
 	- [Code OSC SLIP de base](m5stack/atom/code_base_osc_slip.md)
-	- [Générer un nomber aléatoire](arduino/random/README.md)
+	- [Générer un nombre aléatoire](arduino/random/README.md)
