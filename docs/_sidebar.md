@@ -47,3 +47,4 @@
 	- [Code de base du M5Stack Atom](m5stack/atom/code-base.md)
 	- [Code OSC SLIP de base](m5stack/atom/code_base_osc_slip.md)
 	- [Générer un nombre aléatoire](arduino/random/README.md)
+	- [Matrice de connexions de câbles](m5stack/atom/tutoriel/matrice-cables/README.md)
