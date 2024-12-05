@@ -43,6 +43,7 @@
 - Reaper OSC Virtual Keyboard
 	- [OSC MIDI dans Reaper](reaper/osc-midi.md)
 -  Références
+	- [Broches du Atom Lite](m5stack/atom/atom_lite.md)
 	- [Couleurs de connecteurs Grove](m5stack/atom/grove.md)
 	- [Code de base du M5Stack Atom](m5stack/atom/code-base.md)
 	- [Code OSC SLIP de base](m5stack/atom/code_base_osc_slip.md)
