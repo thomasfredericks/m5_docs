@@ -15,7 +15,7 @@
 ### Code à ajouter à setup()
 
 Dans `setup()`, initialiser les broches, dans ce cas-ci, les broches du ATOM Lite :
-```arduino
+```cpp
   pinMode(32, INPUT_PULLUP);
   pinMode(26, OUTPUT);
 ```
@@ -24,22 +24,22 @@ Dans `setup()`, initialiser les broches, dans ce cas-ci, les broches du ATOM Lit
 ### Code à utiliser dans la boucle à intervalle régulier dans loop()
 
 Pour obtenir la valeur du bouton :
-```arduino
+```cpp
 int monEtatBouton = digitalRead(32);
 ```
 
 Pour allumer la DEL du bouton :
-```arduino
+```cpp
 digitalWrite(26, 1);
 ```
 
 Pour éteindre la DEL du bouton :
-```arduino
+```cpp
 digitalWrite(26, 0);
 ```
 
 Pour allumer la DEL du bouton quand on appuie dessus :
-```arduino
+```cpp
  int monEtatBouton = digitalRead(32);
     if (monEtatBouton == 1) {
       digitalWrite(26, 0);

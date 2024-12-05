@@ -35,7 +35,7 @@ Ne pas oublier de modifier la configuration matérielle pour qu'elle corresponde
 
 
 
-```arduino
+```cpp
 /*
    Arduino 1D Pong Game with (60) WS2812B LEDs
 

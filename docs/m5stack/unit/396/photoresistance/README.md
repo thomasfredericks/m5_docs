@@ -9,13 +9,13 @@
 ### Code à ajouter à setup()
 
 Dans `setup()`, initialiser la broche du ATOM Lite :
-```arduino
+```cpp
   pinMode(32, INPUT);
 ```
 
 ### Code à utiliser dans la boucle à intervalle régulier dans loop()
 
 Pour obtenir la valeur de la photorésistance :
-```arduino
+```cpp
 int valeur = analogRead(32);
 ```

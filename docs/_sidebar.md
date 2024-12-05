@@ -49,7 +49,6 @@
 	- [Code OSC SLIP de base](m5stack/atom/code_base_osc_slip.md)
 	- [Générer un nombre aléatoire](arduino/random/README.md)
 	- [Matrice de connexions de câbles](m5stack/atom/tutoriel/matrice-cables/README.md)
-	- [Code OSC SLIP de base](m5stack/atom/code_base_osc_slip.md)
 	- [M5Stack Unit TOF](m5stack/unit/tof/README.md)
 	- [M5Stack Unit Encoder](m5stack/unit/encoder/README.md)
 	- [M5Stack Unit 3.96 et photorésistance](m5stack/unit/396/photoresistance/README.md)

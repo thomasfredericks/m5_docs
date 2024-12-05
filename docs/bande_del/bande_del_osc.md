@@ -8,7 +8,7 @@
 
 ## Arduino : code 
 
-```Arduino
+```cpp
 // MicroOsc_NeoPixel_SLIP
 // by Thomas O Fredericks
 // 2022-11-09

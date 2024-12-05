@@ -21,7 +21,7 @@ La bibliothèque [vl53l0x-arduino](https://github.com/pololu/vl53l0x-arduino) es
 ### Code à ajouter à l'espace global, i.e. avant setup()
 
 Importer la bibliothèque et créer une instance de la classe `VL53L0X` :
-```arduino
+```cpp
 #include <VL53L0X.h>
 VL53L0X myTOF;
 ```
@@ -29,7 +29,7 @@ VL53L0X myTOF;
 ### Code à ajouter à setup()
 
 Dans `setup()`, démarrer la connexion I2C (si elle n'a pas déjà été démarrée), initialiser le TOF, définir un *timeout* et démarrer la lecture en continue du TOF :
-```arduino
+```cpp
   Wire.begin();
 
   myTOF.init();
@@ -41,12 +41,12 @@ Dans `setup()`, démarrer la connexion I2C (si elle n'a pas déjà été démarr
 ### Code à utiliser dans loop()
 
 Obtenir la mesure en millimètres :
-```arduino
+```cpp
 uint16_t value = myTOF.readRangeContinuousMillimeters();
 ```
 
 Déterminer s'il y a eu une erreur de communication avec le TOF :
-```arduino
+```cpp
 int error = myTOF.timeoutOccurred();
 ```
 
