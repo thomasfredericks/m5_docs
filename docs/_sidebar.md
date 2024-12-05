@@ -22,7 +22,7 @@
 	- [Tutoriel: Bouton, M5 Angle et Serial Monitor](m5stack/atom/tutoriel/angle-button-monitor.md)
 - De MicroOsc à TouchDesigner
 	- [Protocole Open Sound Control (OSC)](osc/protocole.md)
-	- [L'envoi d'OSC avec MicroOsc](osc/microosc/envoi.md)
+	- [Envoi d'OSC SLIP avec MicroOsc](osc/microosc/envoi.md)
 	- [Tutoriel: OscBridge, M5 Angle et le bouton](m5stack/atom/tutoriel/angle-button-oscbridge.md)
 	- [Tutoriel: Réception de l'OSC dans TouchDesigner](touchdesigner/tutoriel/reception.md)
 - Traitement dans TouchDesigner
@@ -31,7 +31,7 @@
 	- [Tutoriel: Filtrer l'angle dans TouchDesigner](touchdesigner/tutoriel/angle_filtrer.md)
 	- [Tutoriel: Détection de seuil de l'angle](touchdesigner/tutoriel/angle_seuil.md)
 - De TouchDesigner à MicroOsc
-	- [La réception d'OSC avec MicroOsc](osc/microosc/reception.md)
+	- [Réception d'OSC SLIP avec MicroOsc](osc/microosc/reception.md)
 	- [Tutoriel: Contrôle du Pixel par OSC](touchdesigner/tutoriel/osc_pixel.md)
 - Plusieurs Units à connecteurs noirs
 	- [M5Stack Unit PbHub](m5stack/unit/pbhub.md)
@@ -54,6 +54,8 @@
 	- [M5Stack Unit Encoder](m5stack/unit/encoder/README.md)
 	- [M5Stack Unit 3.96 et photorésistance](m5stack/unit/396/photoresistance/README.md)
 	- [M5Stack Unit 3.96 et bouton d'arcade](m5stack/unit/396/bouton-arcade/README.md)
+	- [MicroOsc UDP](osc/microosc/envoi.md)
 	- [OSC dans Unity avec extOSC](unity/extosc/README.md)
     - [OSC dans Unity avec OSCJackVS](unity/oscjackvs/README.md)
-	- [Relais Pure/Plug Data](pd/relais/README.md)
+	- [Relais Pure/Plug Data](pd/relais/README.md)		
+	- [Bande DEL](bande_del/bande_del_atom.md)		
