@@ -34,7 +34,7 @@
 	- [La réception d'OSC avec MicroOsc](osc/microosc/reception.md)
 	- [Tutoriel: Contrôle du Pixel par OSC](touchdesigner/tutoriel/osc_pixel.md)
 - Plusieurs Units à connecteurs noirs
-	- [M5Stack PbHub Unit](m5stack/unit/pbhub.md)
+	- [M5Stack Unit PbHub](m5stack/unit/pbhub.md)
 	- [Tutoriel: M5Stack PbHub + Angle, Motion, Light, Key](m5stack/atom/tutoriel/pbhub_key-motion-angle-light.md)
 - Reaper OSC Play,Stop,Volume,VU
 	- [OSC dans Reaper](reaper/osc.md)
@@ -49,3 +49,11 @@
 	- [Code OSC SLIP de base](m5stack/atom/code_base_osc_slip.md)
 	- [Générer un nombre aléatoire](arduino/random/README.md)
 	- [Matrice de connexions de câbles](m5stack/atom/tutoriel/matrice-cables/README.md)
+	- [Code OSC SLIP de base](m5stack/atom/code_base_osc_slip.md)
+	- [M5Stack Unit TOF](m5stack/unit/tof/README.md)
+	- [M5Stack Unit Encoder](m5stack/unit/encoder/README.md)
+	- [M5Stack Unit 3.96 et photorésistance](m5stack/unit/396/photoresistance/README.md)
+	- [M5Stack Unit 3.96 et bouton d'arcade](m5stack/unit/396/bouton-arcade/README.md)
+	- [OSC dans Unity avec extOSC](unity/extosc/README.md)
+    - [OSC dans Unity avec OSCJackVS](unity/oscjackvs/README.md)
+	- [Relais Pure/Plug Data](pd/relais/README.md)
