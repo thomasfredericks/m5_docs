@@ -1074,7 +1074,14 @@ h2::after, h3::after, h4::after, h5::after, h6::after {
 figure {
   display: inline-block;  /* Makes the figure respect the width of its content */
   text-align: center;     /* Optional: Centers the text in the figcaption */
+  border: thin #c0c0c0 solid;
+  flex-flow: column;
+  padding: 5px;
+  margin: auto;
+  max-width: 800px;
 }
+
+
 
 figcaption {
   display: block;         /* Ensures figcaption behaves as a block-level element */
@@ -1084,4 +1091,5 @@ figcaption {
   font: italic smaller sans-serif;
   padding: 3px;
   text-align: center;
+
 }
