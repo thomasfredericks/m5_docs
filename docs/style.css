@@ -17,25 +17,6 @@
   --sidebar-active-text: var(--theme-color); /* Light mode sidebar active text color */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --theme-color: #006d70; /* Pink */
-    --theme-color-hover: #00b7bc; /* Pink hover */
-    --theme-background: #1e1e1e;
-    --theme-text: #e0e0e0;
-    --theme-border: rgba(255, 255, 255, 0.1);
-    --theme-link: #006d70; /* Pink */
-    --theme-link-hover: #00b7bc; /* Pink hover */
-    --theme-bold-text: #ffffff; /* Brighter bold text color for dark mode */
-    --code-background: #2d2d2d; /* Dark mode code block background */
-    --code-text: #cccccc; /* Dark mode code text color */
-    --code-syntax: #ffcc00; /* Dark mode syntax highlight color */
-    --sidebar-background: #2e2e2e; /* Dark mode sidebar background */
-    --sidebar-text: #cccccc; /* Dark mode sidebar text color */
-    --sidebar-active-text: var(--theme-color); /* Dark mode sidebar active text color */
-  }
-}
-
 * {
   -webkit-font-smoothing: antialiased;
   -webkit-overflow-scrolling: touch;

@@ -1,11 +1,11 @@
 - [Accueil](./)
 - Premiers pas
-	- [Installation d'Arduino IDE](arduino/ide/installation.md)
-	- [Installation de M5Stack Atom](m5stack/atom/installation.md)
+	- [Installation d'Arduino IDE](./arduino/ide/installation.md)
+	- [Installation de M5Stack Atom](/m5stack/atom/installation.md)
 	- [Configuration pour M5Stack Atom](m5stack/atom/configuration.md)
 - Bouton, clignotement et intervalle
-	- [Tutoriel: Le code test «Blink»](m5stack/atom/tutoriel/blink.md)
-	- [Attendre avec millis()](arduino/millis/attendre.md)
+	- [Tutoriel: Le code test «Blink»](./m5stack/atom/tutoriel/blink.md)
+	- [Attendre avec millis()](/arduino/millis/attendre.md)
 	- [Tutoriel: «Blink» au démarrage](m5stack/atom/tutoriel/blink_demarrage.md)
 	- [Le code Arduino](arduino/code.md)
 	- [Bouton du M5Stack Atom](m5stack/atom/bouton.md)

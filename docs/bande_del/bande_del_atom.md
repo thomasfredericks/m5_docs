@@ -1,88 +1,92 @@
-# Contrôler une bande de DEL avec un M5Stack Atom
+# Contrôler une bande de pixels avec un M5Stack Atom
 
 ## Introduction
 
-Le modèle de bande de DEL utilisé ici est le WS281X (le X indique que le dernier chiffre n’est pas important). Elle fonctionne avec une tension d'alimentation à 12V.
+Une bande de pixels regroupe plusieurs LED pouvant être contrôlées avec une ou deux broches. Chaque pixel est composé de plusieurs LED, généralement une rouge, une verte et une bleue. Certains modèles intègrent également des LED supplémentaires blanches, ambrées ou ultraviolettes. De plus, pour chaque modèle de bande de pixels, l'ordre des couleurs peut varier : RGB, GRB, BGR, etc.  
 
-De façon générale, elle est aussi connue sous le nom de **NeoPixel**. Elle a été popularisée et baptisée en Amérique par la compagnie Adafruit. Adafruit fournit [plusieurs modèles de NeoPixel](https://www.adafruit.com/category/168). Cependant, les NeoPixels d'Adafruit fonctionnent à 5 Volts. Toutefois, leur système de contrôle est identique à celui de la bande de DEL utilisées ici. 
+Aussi connue sous le nom de **NeoPixel**, ce type de produit a été popularisé par la société Adafruit, qui propose [de nombreux modèles de NeoPixels](https://www.adafruit.com/category/168). Attention, les NeoPixels d'Adafruit fonctionnent à 5 volts.
 
-![Différents modèles de bandes de DEL](./bande_del_modeles.svg)
+![Différents modèles de bandes de LED](./bande_del_modeles.svg)
 
-## Ordre des couleurs des DEL
 
-Pour chaque modèle de bande de DEL, les couleurs sont disposées dans un certain ordre: RGB, GRB, BGR, etc. **Dans notre cas, l'ordre est : RGB**.
 
 ## Broches
 
-Les NeoPixels possèdent au moins 3 broches qui doivent toutes être connectées :
-* GND.
-* Alimentation (5V, 12V ou 24V selon les modèles).
-* Entrée de données (*Data In*).
+Les NeoPixels possèdent au moins trois broches qui doivent être connectées :  
+- **GND** (masse)  
+- **Alimentation** (5 V, 12 V ou 24 V selon les modèles)  
+- **Entrée de données** (*Data In*)  
 
-Les WS281X 12V possèdent 4 broches (la broche supplémentaire est optionnelle) :
-* **GND**.
-* **+12V** pour l'alimentation.
-* **DI** pour l'entrée de données.
-* **BI** dont l'utilisation est optionnelle et utilisée seulement en cas de bris d'un segment.
+Les modèles WS281X fonctionnant en 12 V comportent parfois une quatrième broche optionnelle :  
+- **GND**  
+- **+12V** (alimentation)  
+- **DI** (entrée de données)  
+- **BI** (utilisée uniquement en cas de défaillance d’un segment).
+
+
 
 ## Branchement
 
-![Couper un segment de bande de DEL](./Diapositive1.SVG)
+Dans cet exemple, nous utilisons une bande de LED WS281X fonctionnant avec une tension d’alimentation de 12 V.
 
-![Enlever soigneusement le revêtement sur la partie cuivrée coupée](./Diapositive2.SVG)
-
-![Schéma du montage a effectuer](./bande-del_atom_schema.png)
-
-![Effectuer la connexion avec le connecteur sans soudure du côté du multi-câble](./bande-del_connecteur_cote-cable.png)
-
-![Attention, les bandes de DEL ont un sens: connectez vous du côté du DI (Data Input) et non du DO!](./bande_del_sens.svg)
-
-![Effectuer la connexion avec le connecteur sans soudure du côté de la bande](./bande-del_connecteur_cote-bande.png)
-
-![Photo du montage effectué](./bande-del_atom_photo.png)
-
-![Les bandes peuvent être allongées en connectant les DO aux DI des bandes suivantes](./bande_del_extension_schema.svg)
+![Couper un segment de bande de LED](./Diapositive1.SVG)  
+![Attention : connectez-vous du côté DI (*Data Input*) et non DO !](./bande_del_sens.svg) 
+![Enlever soigneusement le revêtement sur la partie cuivrée coupée](./Diapositive2.SVG)  
+![Connexion sans soudure du côté multi-câble](./bande-del_connecteur_cote-cable.png)  
+![Connexion sans soudure du côté de la bande](./bande-del_connecteur_cote-bande.png)  
+![Schéma du montage à effectuer](./bande-del_atom_schema.png)  
+![Photo du montage effectué](./bande-del_atom_photo.png)  
+![Extension de bandes en connectant les DO aux DI](./bande_del_extension_schema.svg)
 
 
 ### Bonnes pratiques
 
-Adafruit recommande les bonnes pratiques de connexion suivantes : [Best Practices | Adafruit NeoPixel Überguide | Adafruit Learning System](https://learn.adafruit.com/adafruit-neopixel-uberguide/best-practices).
+Adafruit recommande de suivre [ces bonnes pratiques de connexion](https://learn.adafruit.com/adafruit-neopixel-uberguide/best-practices) pour éviter les problèmes.
+
+
 
 ## Bibliothèque FastLED
 
-**Les bibliothèques de bandes de DEL supportent souvent plusieurs modèles. On doit sélectionner le bon modèle dans le code!**  Il est recommandé d'utiliser la bibliothèque [FastLED](https://github.com/FastLED/FastLED) qui peut être installée à partir du gestionnaire de bibliothèques. FastLED est trèes performante, mais un êu compliquée à utiliser. 
+**Les bibliothèques pour bandes de LED supportent souvent plusieurs modèles. Il est important de sélectionner le bon modèle dans le code !**  
+Nous recommandons la bibliothèque [FastLED](https://github.com/FastLED/FastLED), qui peut être installée via le gestionnaire de bibliothèques. Elle est très performante, mais un peu complexe à utiliser.
 
-### À ajouter à l'espace global
 
+### Initialisation dans le code
+
+#### À ajouter dans l’espace global :
 ```cpp
 #define NOMBRE_PIXELS 30 
 CRGB mesPixels[NOMBRE_PIXELS];
 ```
 
-### À ajouter dans setup()
-
-Il faut ajouter les pixels à FastLED. Le 26 c'est le numéro de la broche du Atom qui envoie les données à la bande de pixels.
-
+#### Dans `setup()`
+Ajoutez les pixels à FastLED. La broche 26 correspond à celle du M5Stack Atom pour envoyer les données à la bande de pixels :
 ```cpp
 FastLED.addLeds<WS2812, 26, RGB>(mesPixels, NOMBRE_PIXELS);
 ```
 
-### Dans loop()
-
-Pour changer la couleur d'un pixel, changer sa couleur CRGB dans le tableau. Par exemple, pour changer la couleur du pixel à l'index 13 :
+#### Dans `loop()`
+Pour modifier la couleur d’un pixel, changez sa valeur dans le tableau :
 ```cpp
 int indexDuPixel = 13;
 int rouge = 255;
 int vert = 255;
 int bleu = 255;
-mesPixels[indexDuPixel] = CRGB( rouge , vert, bleu);
+mesPixels[indexDuPixel] = CRGB(rouge, vert, bleu);
 ```
-Par après, mettre à jour les pixels de la bande de DEL :
+Ensuite, mettez à jour l’affichage :
 ```cpp
 FastLED.show();
 ```
 
-### Exemple de code FastLED avec des animations
+
+
+### Exemple complet avec animations
+
+Le code ci-dessous contrôle une bande de LED via un M5Stack Atom. Il inclut des animations comme l’arc-en-ciel ou les effets scintillants.
+
+
+
 
 ```cpp
 // Le code de base pour le M5Stack Atom
@@ -108,12 +112,6 @@ unsigned long monChronoStart;
 
 int monAnimation = 6;
 
-// Utiliser les trois commandes suivantes si la bande est connectée au pbHub
-/*
-#include <M5_PbHub.h>
-M5_PbHub myPbHub;
-#define MA_BANDE_DEL_CANAL 3
-*/
 
 void setup() {
   // Démarrer la libraire M5 avec toutes les options de pré-configuration désactivées :
@@ -176,12 +174,7 @@ void loop() {
 
     // Utiliser FastLED.show() si la bande est connectée directement à l'ATOM
     FastLED.show();
-    // Utiliser le *for* suivant si la bande est connectée au pbHub
-    /*
-    for (int i = 0; i < MA_BANDE_DEL_COMPTE; i++) {
-      myPbHub.setPixelColor(MA_BANDE_DEL_CANAL, i, maBandeDel[i].r, maBandeDel[i].g, maBandeDel[i].b);
-    }
-    */
+
   }
 }
 
