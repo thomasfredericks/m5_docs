@@ -1,15 +1,17 @@
 # Tutoriel: M5Stack PbHub et units Angle, Motion, Light et Key
 
+
+## Préalable(s)
+
+1) [Code OSC SLIP de base du M5Stack Atom](/m5stack/atom/code_base_osc_slip.md)
+2) [M5Stack PbHub Unit](/m5stack/unit/pbhub.md)
+
 ## Circuit
 
 Brancher les Units Angle, Motion, Light et Key au PbHub. Noter les canaux utilisés pour chaque module.
 
 ![Des UNITS KEY, LIGHT, PIR et ANGLE connectés au PbHub v1.1](pbhub_key-motion-angle-light.jpg)
 
-## Préalable(s)
-
-1) [Code OSC SLIP de base du M5Stack Atom](/m5stack/atom/code_base_osc_slip.md)
-2) [M5Stack PbHub Unit](/m5stack/unit/pbhub.md)
 
 ## Le code préalable à intégrer
 

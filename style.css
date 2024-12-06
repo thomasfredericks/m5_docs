@@ -1074,11 +1074,13 @@ h2::after, h3::after, h4::after, h5::after, h6::after {
 figure {
   display: inline-block;  /* Makes the figure respect the width of its content */
   text-align: center;     /* Optional: Centers the text in the figcaption */
-  border: thin #c0c0c0 solid;
+  border: none;
   flex-flow: column;
-  padding: 5px;
+  padding: 2px;
   margin: auto;
   max-width: 800px;
+  background-color: #222;
+  background: linear-gradient(to bottom, #fff, #222);
 }
 
 
