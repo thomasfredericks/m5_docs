@@ -2,7 +2,7 @@
 
 ## Préalable(s)
 
-- [Installer les dépendances pour M5Stack Atom](m5stack/atom/installation.md)
+- [Installer les dépendances pour M5Stack Atom](/m5stack/atom/installation.md)
 
 ## Choisir la bonne plateforme
 
