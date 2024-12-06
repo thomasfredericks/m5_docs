@@ -1,9 +1,6 @@
-# m5_docs
+# Documentation sur l'utilisation des modules M5Stack
 
-This repository contains documentation for M5 Stack hardware, specifically for the M5 Atom.
+Cette documentation a été réalisée par Thomas O Fredericks. Vous pouvez la consulter librement, mais vous devez en respecter les règles du droit d'auteur : [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr).
 
-It is written and maintained by Thomas O. Fredericks and is used in his classes to teach microelectronics.
+![](cover.jpg)
 
-The documentation can be consulted here : [https://t-o-f.info/m5_docs](https://t-o-f.info/m5_docs).
-
-m5_docs © 2024 by Thomas O Fredericks is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International. To view a copy of this license, visit [https://creativecommons.org/licenses/by-nc-sa/4.0/](https://creativecommons.org/licenses/by-nc-sa/4.0/).
