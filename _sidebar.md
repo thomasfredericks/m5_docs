@@ -1,4 +1,4 @@
-- [Accueil](./)
+- [Accueil](/)
 - Premiers pas
 	- [Installation d'Arduino IDE](/arduino/ide/installation.md)
 	- [Installation de M5Stack Atom](/m5stack/atom/installation.md)

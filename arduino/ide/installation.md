@@ -18,7 +18,7 @@ Aucun préalable.
 
 L'environnement de développement intégré Arduino, *Arduino Integrated development environment* en anglais, ou **Arduino IDE** est outil pour programmer les microcontrôleurs dédié à l'apprentissage.
 
-![Fenêtre principale](arduino_ide_fenetre.svg "Fenêtre principale")
+![Fenêtre principale](arduino_ide_fenetre.svg)
 
 
 ![Barre d'icones](arduino_ide_barre.svg)
