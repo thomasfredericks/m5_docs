@@ -3,7 +3,7 @@
 
 ## Préalable(s)
 
-- [OSC dans Reaper](reaper/osc.md)
+- [OSC dans Reaper](/reaper/osc.md)
 
 ## Virtual MIDI Keyboard
 
