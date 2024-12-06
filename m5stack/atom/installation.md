@@ -2,7 +2,7 @@
 
 ## Préalable(s)
 
-- [Installer Arduino IDE](arduino/ide/installation.md)
+- [Installer Arduino IDE](/arduino/ide/installation.md)
 
 ## Page du produit
 

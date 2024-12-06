@@ -2,7 +2,7 @@
 
 ## Préalable(s)
 
-- [Tutoriel: le code test «Blink»](m5stack/atom/tutoriel/blink.md)
+- [Tutoriel: le code test «Blink»](/m5stack/atom/tutoriel/blink.md)
 
 
 ## Le code à ajouter

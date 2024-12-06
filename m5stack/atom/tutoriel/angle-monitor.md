@@ -2,26 +2,26 @@
 
 ## Préalable(s)
 
-- [Code de base du M5Stack Atom](m5stack/atom/code-base.md)
-- [M5 Angle Unit](m5stack/unit/angle.md)
+- [Code de base du M5Stack Atom](/m5stack/atom/code-base.md)
+- [M5 Angle Unit](/m5stack/unit/angle.md)
 
 ## Le code préalable à intégrer
 
-1) Transcrire le [Code de base du M5Stack Atom](m5stack/atom/code-base.md) dans un nouveau projet Arduino.
+1) Transcrire le [Code de base du M5Stack Atom](/m5stack/atom/code-base.md) dans un nouveau projet Arduino.
 
 
 ## Code à ajouter
 
 ### Dans l'espace global
 
-Comme indiqué dans la section [M5 Angle Unit](m5stack/unit/angle.md), c'est une bonne idée d'utiliser un `#define` pour identifier le numéro de la broche du *M5 Angle Unit*:
+Comme indiqué dans la section [M5 Angle Unit](/m5stack/unit/angle.md), c'est une bonne idée d'utiliser un `#define` pour identifier le numéro de la broche du *M5 Angle Unit*:
 ```cpp
 #define MA_BROCHE_ANGLE 32
 ```
 
 ### Dans `loop()`
 
-1) Après avoir intégré le code du [M5 Angle Unit](m5stack/unit/angle.md) au  [Code de base du M5Stack Atom](m5stack/atom/code-base.md), la valeur peut être envoyée au Serial Monitor et au Serial Plotter avec un appel à `Serial.println()` :
+1) Après avoir intégré le code du [M5 Angle Unit](/m5stack/unit/angle.md) au  [Code de base du M5Stack Atom](/m5stack/atom/code-base.md), la valeur peut être envoyée au Serial Monitor et au Serial Plotter avec un appel à `Serial.println()` :
 ```cpp
 Serial.println( maLectureAngle );
 ```

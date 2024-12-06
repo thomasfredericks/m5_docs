@@ -2,12 +2,12 @@
 
 ## Préalable(s)
 
-- [Tutoriel: «Blink» au démarrage](m5stack/atom/tutoriel/blink_demarrage.md)
-- [Intervalle avec millis()](arduino/millis/intervalle.md)
+- [Tutoriel: «Blink» au démarrage](/m5stack/atom/tutoriel/blink_demarrage.md)
+- [Intervalle avec millis()](/arduino/millis/intervalle.md)
 
 ## Le code préalable à intégrer
 
-1) Transcrire le code du [Tutoriel: «Blink» au démarrage](m5stack/atom/tutoriel/blink_demarrage.md) dans un nouveau projet Arduino.
+1) Transcrire le code du [Tutoriel: «Blink» au démarrage](/m5stack/atom/tutoriel/blink_demarrage.md) dans un nouveau projet Arduino.
 
 ## Le nouveau code à ajouter
 

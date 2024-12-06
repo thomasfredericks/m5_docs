@@ -8,12 +8,12 @@ Brancher les Units Angle, Motion, Light et Key au PbHub. Noter les canaux utilis
 
 ## Préalable(s)
 
-1) [Code OSC SLIP de base du M5Stack Atom](m5stack/atom/code_base_osc_slip.md)
-2) [M5Stack PbHub Unit](m5stack/unit/pbhub.md)
+1) [Code OSC SLIP de base du M5Stack Atom](/m5stack/atom/code_base_osc_slip.md)
+2) [M5Stack PbHub Unit](/m5stack/unit/pbhub.md)
 
 ## Le code préalable à intégrer
 
-1) Transcrire le [Code OSC SLIP de base du M5Stack Atom](m5stack/atom/code_base_osc_slip.md) dans un nouveau projet Arduino.
+1) Transcrire le [Code OSC SLIP de base du M5Stack Atom](/m5stack/atom/code_base_osc_slip.md) dans un nouveau projet Arduino.
 
 ## Intégrer la bibliothèque M5_PbHub
 

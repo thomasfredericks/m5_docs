@@ -2,11 +2,11 @@
 
 ## Préalable(s)
 
-- [Tutoriel «Blink» au démarrage](m5stack/atom/tutoriel/blink_demarrage.md)
+- [Tutoriel «Blink» au démarrage](/m5stack/atom/tutoriel/blink_demarrage.md)
 
 ## Le code préalable à intégrer
 
-1) Transcrire le code du [tutoriel «Blink» au démarrage](m5stack/atom/tutoriel/blink_demarrage.md) dans un nouveau projet Arduino.
+1) Transcrire le code du [tutoriel «Blink» au démarrage](/m5stack/atom/tutoriel/blink_demarrage.md) dans un nouveau projet Arduino.
 
 
 ## Le code à ajouter pour que le bouton alterne l'etat du pixel

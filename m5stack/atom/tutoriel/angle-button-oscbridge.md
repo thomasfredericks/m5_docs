@@ -2,13 +2,13 @@
 
 ## Préalable(s)
 
-- Se familiariser avec [L'envoi d'OSC avec MicroOsc](osc/microosc/envoi.md)
+- Se familiariser avec [L'envoi d'OSC avec MicroOsc](/osc/microosc/envoi.md)
 - Télécharger la bibliothèque **MicroOsc** dans le gestionnaire de bibliothèques d'Arduino.
 - Télécharger la dernière version d'OscBridge pour Windows : [OscBridge Latest Release](https://github.com/thomasfredericks/OscBridge/releases/lateste)
 
 ## Le code préalable à intégrer
 
-1) Transcrire le [Code de base du M5Stack Atom](m5stack/atom/code-base.md) dans un nouveau projet Arduino.
+1) Transcrire le [Code de base du M5Stack Atom](/m5stack/atom/code-base.md) dans un nouveau projet Arduino.
 
 ## Ajouter l'intégration de MicroOsc
 
@@ -26,7 +26,7 @@ Serial.begin(115200);
 
 ## Rappels
 
-Ne pas oublier que comme indiqué dans la section [M5 Angle Unit](m5stack/unit/angle.md), c'est une bonne idée d'utiliser un `#define` dans **l'espace global** pour identifier le numéro de la broche du *M5 Angle Unit*:
+Ne pas oublier que comme indiqué dans la section [M5 Angle Unit](/m5stack/unit/angle.md), c'est une bonne idée d'utiliser un `#define` dans **l'espace global** pour identifier le numéro de la broche du *M5 Angle Unit*:
 ```cpp
 #define MA_BROCHE_ANGLE 32
 ```
