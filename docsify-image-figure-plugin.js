@@ -3,7 +3,9 @@
       hook.beforeEach(function (content) {
         return content.replace(/!\[([^\]]*)\]\(([^)]+)\)/g, (match, alt, src) => {
             const path = vm.route.path;
-            const pathWithoutFileName = path.substring(0, path.lastIndexOf('/'))+"/";
+            //const removePrecedingSlash = path.replace(/^\/?/, "");
+            const pathWithoutFileName = "."+path.substring(0, path.lastIndexOf('/'))+"/";
+            
           return `
   <div style="text-align:center">
           <figure>
